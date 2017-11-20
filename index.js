@@ -31,6 +31,7 @@ function prependDriver(name){
 }
 
 function removeLastDriver(){
-  const driversUpdate1 = drives.slice(0, drivers.length-1)
+  const driversUpdate1 = drives.slice(0, drivers.length-1);
   return driversUpdate1
 }
+
