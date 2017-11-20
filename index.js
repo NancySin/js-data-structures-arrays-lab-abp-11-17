@@ -34,3 +34,8 @@ function removeLastDriver(){
   const driversUpdate1 = drives.slice(0, drivers.length-1);
   return driversUpdate1;
 }
+
+function removeFirstDriver(){
+  const driversUpdate2 = drivers.slice(1);
+  return driversUpdate2;
+}
