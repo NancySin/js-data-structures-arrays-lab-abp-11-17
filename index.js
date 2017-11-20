@@ -25,8 +25,3 @@ function appendDriver(name) {
    return(newDrivers)
   console.log(drivers)
 }
-
-function perpendDriver(name){
-  const driversUpdate = ["Arnold",...drivers];
-  return driversUpdate;
-}
