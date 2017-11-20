@@ -27,7 +27,3 @@ function appendDriver(name) {
 }
 
 
-function removeLastDriver(){
-  const drivers = drivers.slice(0, drivers.length - 1);
-  return (newdrivers)
-  
